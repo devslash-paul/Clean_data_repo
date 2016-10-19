@@ -24,7 +24,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 ##Creating the tidy datafile
 
 ###Guide to create the tidy data file
-To create the tidy data file, run the `main.R` R file. This will download the raw data, unzip, merge, and then tidy it up. 
+To create the tidy data file, run the `run_analysis.R` R file. This will download the raw data, unzip, merge, and then tidy it up. 
 
 ###Cleaning of the data
 The data is cleaned by 

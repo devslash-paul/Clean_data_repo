@@ -5,7 +5,8 @@ date: "19 October 2016"
 output: html_document
 ---
 
-`main.R` works by first downloading the file from the archive on `uci.edu`. This only occurs 
+#`run_analysis.R` 
+works by first downloading the file from the archive on `uci.edu`. This only occurs 
 if the data has not yet been extracted. This means that you do not waste data if the data has
 previously been downloaded. 
 
