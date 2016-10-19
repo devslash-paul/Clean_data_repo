@@ -40,4 +40,4 @@ meanstdData <- totalData[,desiredColumns]
 tidyData <- aggregate(.~Subject+Label, meanstdData, mean)
 
 # Write the data set
-write.csv(tidyData, file="output.csv", row.names=F)
+write.table(tidyData, file="output.txt", row.names=F)
